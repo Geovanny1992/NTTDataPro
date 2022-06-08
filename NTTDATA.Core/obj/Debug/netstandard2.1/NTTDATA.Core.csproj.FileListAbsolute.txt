@@ -1,0 +1,10 @@
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\bin\Debug\netstandard2.1\NTTDATA.Core.deps.json
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\bin\Debug\netstandard2.1\NTTDATA.Core.dll
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\bin\Debug\netstandard2.1\NTTDATA.Core.pdb
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\obj\Debug\netstandard2.1\NTTDATA.Core.csproj.AssemblyReference.cache
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\obj\Debug\netstandard2.1\NTTDATA.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\obj\Debug\netstandard2.1\NTTDATA.Core.AssemblyInfoInputs.cache
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\obj\Debug\netstandard2.1\NTTDATA.Core.AssemblyInfo.cs
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\obj\Debug\netstandard2.1\NTTDATA.Core.csproj.CoreCompileInputs.cache
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\obj\Debug\netstandard2.1\NTTDATA.Core.dll
+C:\Fuentes\NTTDATASOL\NTTDATA.Core\obj\Debug\netstandard2.1\NTTDATA.Core.pdb

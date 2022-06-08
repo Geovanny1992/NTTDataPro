@@ -1,0 +1,272 @@
+{
+	"info": {
+		"_postman_id": "721a2853-770f-42a2-a53a-27a33845a1fd",
+		"name": "nttdata_api_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cuentas Consultas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Account/Get?Id=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Account",
+						"Get"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Cuenta Crear Actualizar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n//para crear el Id debe ser 0\r\n//Tipo de cuenta: \r\n//1= ahorros  y 2=corrientes\r\n  \"id\": 0,\r\n  \"numeroCuenta\": \"478758 \",\r\n  \"tipoCuenta\": 1,\r\n  \"saldoInicial\": 200,\r\n  \"estado\": true,\r\n  \"clienteId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Account/CreateUpdate",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Account",
+						"CreateUpdate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Persona Consulta",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Person/Get",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Person",
+						"Get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Persona Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \r\n  \"nombres\": \"Jose Lema\",\r\n  \"genero\": 1,\r\n  \"fechaNacimiento\": \"1992-06-07\",\r\n  \"identificacion\": \"0928456255\",\r\n  \"direccion\": \"Otavalo sn y principal \",\r\n  \"telefono\": \"097548965\",\r\n  \"contrasena\": \"12501* \",\r\n  \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/Api/Person/Create",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"Api",
+						"Person",
+						"Create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Persona Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"Id\":3,\r\n  \"nombres\": \"Marianela Montalvo\",\r\n  \"generos\": 1,\r\n  \"fechaNacimiento\": \"1992-06-07\",\r\n  \"identificacion\": \"0928456255\",\r\n  \"direccion\": \"Amazonas y Los rios\",\r\n  \"telefono\": \"097548965\",\r\n  \"contrasena\": \"12501* \",\r\n  \"estado\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/Api/Person/update",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"Api",
+						"Person",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Persona Delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Cuenta Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/Api/Account/delete?Id=1",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"Api",
+						"Account",
+						"delete"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Movimientos débito crédito",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/api/Movement/process",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						"api",
+						"Movement",
+						"process"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reporte por fecha",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44360/",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44360",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

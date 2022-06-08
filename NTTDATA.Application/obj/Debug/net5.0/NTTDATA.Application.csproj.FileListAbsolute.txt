@@ -1,0 +1,15 @@
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\bin\Debug\net5.0\NTTDATA.Application.deps.json
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\bin\Debug\net5.0\NTTDATA.Application.dll
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\bin\Debug\net5.0\NTTDATA.Application.pdb
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\bin\Debug\net5.0\NTTDATA.Core.dll
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\bin\Debug\net5.0\NTTDATA.Core.pdb
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.csproj.AssemblyReference.cache
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.AssemblyInfoInputs.cache
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.AssemblyInfo.cs
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.csproj.CoreCompileInputs.cache
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.csproj.CopyComplete
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.dll
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\refint\NTTDATA.Application.dll
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\NTTDATA.Application.pdb
+C:\Fuentes\NTTDATASOL\NTTDATA.Application\obj\Debug\net5.0\ref\NTTDATA.Application.dll
